@@ -2,7 +2,7 @@
 
 ## Installation
 
-Install the LangChain CLI if you haven't yet
+Install the LangChain CLI
 
 ```bash
 pip install -U langchain-cli
@@ -17,8 +17,6 @@ langchain app add $PROJECT_NAME
 
 # adding custom GitHub repo packages
 langchain app add --repo $OWNER/$REPO
-# or with whole git string (supports other git providers):
-# langchain app add git+https://github.com/hwchase17/chain-of-verification
 
 # with a custom api mount point (defaults to `/{package_name}`)
 langchain app add $PROJECT_NAME --api_path=/my/custom/path/rag
